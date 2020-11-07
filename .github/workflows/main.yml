@@ -20,5 +20,5 @@ jobs:
         CI: true
 
     - name: Cypress run
-      run: npm start
+    - run: npm start
       uses: cypress-io/github-action@v2
