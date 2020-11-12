@@ -30,7 +30,7 @@ jobs:
 
   deploy:
     name: Firebase deploy
-    needs: [build, unit-test, e2e-test]
+    needs: [build, e2e-test]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
